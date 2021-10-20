@@ -8,12 +8,12 @@
 <?php if (empty($barang)):?> 
   <div class="alert alert-danger" role="alert"> 
     Data Barang Ditak ditemukan... 
-  </div> 
+  </div>
   <?php endif; ?>
 <div class="container">
     <div class="row-mt-3">
-        <div class="colmd-6">
-            <a href="http://localhost/latihancodeigniter3/penjualan/barang/tambah/" class="btn btn-primary">Tambah Data Barang </a>
+        <div class="colmd-6"><br>
+            <a href="http://localhost/latihancodeigniter3/penjualan/barang/tambah/" class="btn btn-success">Tambah Data Barang </a>
         </div>
 </div>
 <div class="row mt-3"> 
@@ -21,22 +21,23 @@
     <form action="" method="post"> 
       <div class="input-group"> 
         <input type="text" class="form-control" placeholder="Cari Data Barang..." name="keyword"> 
-        <button class="btn btn-primary" type="submit" >Cari</button> 
+        <button class="btn btn-info" type="submit" >Cari</button> 
       </div> 
   </div>
-</div>
+</div><br>
     </form>
-    <table class="table">
-       <thead>
+    <table class="table" bgcolor="cyan">
+       <thead bgcolor="yellow">
        <tr>
     <th scope="col">Kode Barang</th>
     <th scope="col">Nama Barang</th>
     <th scope="col">Harga</th>
     <th scope="col">Stock</th>
+    <th scope="col">action</th>
 </tr>
 </thead>
 <tbody>
-    <tr>
+    <tr><tr>
 <?php foreach( $barang as $brg ):?>
     <td><?= $brg['id_barang'];?></td>
     <td><?= $brg['nama_barang']; ?></td>
@@ -45,7 +46,7 @@
     <td><a href="http://localhost/latihancodeigniter3/penjualan/barang/detail/<?=$brg['id_barang'];?>" class="btn btn-primary" >Detail</a>
         <a href="http://localhost/latihancodeigniter3/penjualan/barang/ubah/<?=$brg['id_barang'];?>" class="btn btn-success">Ubah</a> 
         <a href="http://localhost/latihancodeigniter3/penjualan/barang/hapus/<?=$brg['id_barang'];?>" class="btn btn-danger" onclick= "return confirm ('Yakin akan dihapus?');">Hapus</a></td>
-    </tr>
+    </tr></tr>
     <?php endforeach ?>
 
     </tbody>

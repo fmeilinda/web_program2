@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
- <head>
+ <head >
+ <link rel="shortcut icon" href="https://www.freepnglogos.com/uploads/bukalapak-logo-png/identitas-brand-bukalapak-bukalapak-5.png">
  <!-- Required meta tags -->
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,9 +12,10 @@ F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="a
 onymous">
  <title><?php echo $judul; ?></title>
  </head>
- <body>
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <body background="https://wallpapercave.com/wp/wp2510999.jpg">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
  <div class="container">
+ <img src="https://www.freepnglogos.com/uploads/bukalapak-logo-png/identitas-brand-bukalapak-bukalapak-5.png" width="7%">
  <a class="navbar-brand" href="#">Toko Online</a>
  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" databs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" arialabel="Toggle navigation">
  <span class="navbar-toggler-icon"></span>
