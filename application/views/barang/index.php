@@ -1,5 +1,5 @@
 <?php if ($this->session->flashdata('flash')): ?> 
-<div class="alert alert-success alert-dismissible fade show" role="alert"> 
+<div class="alert alert-danger alert-dismissible fade show" role="alert"> 
   <strong>Data Barang</strong> <?= $this->session->flashdata('flash'); ?> 
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> 
 </div> 
@@ -13,7 +13,7 @@
 <div class="container">
     <div class="row-mt-3">
         <div class="colmd-6"><br>
-            <a href="http://localhost/latihancodeigniter3/penjualan/barang/tambah/" class="btn btn-success">Tambah Data Barang </a>
+            <a href="http://localhost/latihancodeigniter3/penjualan/barang/tambah/" class="btn btn-danger">Tambah Data Barang </a>
         </div>
 </div>
 <div class="row mt-3"> 
@@ -26,9 +26,15 @@
   </div>
 </div><br>
     </form>
-    <table class="table" bgcolor="cyan">
-       <thead bgcolor="yellow">
-       <tr>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4 bg-info">
+                        <div class="card-header py-3 bg-dark">
+                            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                        </div>
+    <div class="card-body">
+    <div class="table-responsive bg-white">
+      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+      <thead bgcolor='yellow'>
     <th scope="col">Kode Barang</th>
     <th scope="col">Nama Barang</th>
     <th scope="col">Harga</th>

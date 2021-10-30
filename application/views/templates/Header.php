@@ -1,37 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
- <head >
- <link rel="shortcut icon" href="https://www.freepnglogos.com/uploads/bukalapak-logo-png/identitas-brand-bukalapak-bukalapak-5.png">
- <!-- Required meta tags -->
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <!-- Bootstrap CSS -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.m
-in.css" rel="stylesheet" integrity="sha384-
-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="an
-onymous">
- <title><?php echo $judul; ?></title>
- </head>
- <body background="https://wallpapercave.com/wp/wp2510999.jpg">
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
- <div class="container">
- <img src="https://www.freepnglogos.com/uploads/bukalapak-logo-png/identitas-brand-bukalapak-bukalapak-5.png" width="7%">
- <a class="navbar-brand" href="#">Toko Online</a>
- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" databs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" arialabel="Toggle navigation">
- <span class="navbar-toggler-icon"></span>
- </button>
- <div class="collapse navbar-collapse" id="navbarNav">
- <ul class="navbar-nav">
- <li class="nav-item">
- <a class="nav-link" href="#">Beranda</a>
- </li>
- <li class="nav-item">
- <a class="nav-link" href="#">Data Barang</a>
- </li>
- <li class="nav-item">
- <a class="nav-link disabled">Kontak</a>
- </li>
- </ul>
- </div>
- </div>
-</nav>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Dashboard</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="http://localhost/latihancodeigniter3/penjualan/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="http://localhost/latihancodeigniter3/penjualan/assets/css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
