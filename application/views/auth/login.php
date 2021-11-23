@@ -21,17 +21,19 @@
                             <div class="col-lg">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1><font color="black">Welcome Back!</font></h1>
+                                    <?= $this->session->flashdata('message'); ?> 
+                                        <h1><font color="red">Welcome Back!</font></h1>
                                     </div>
+                                    <hr>
                                     <form class="user" method="post" action=<?= base_url('auth'); ?>>
                                         <div class="form-group"> <input type="text" class="form-control form-control-user" id="email" name="email" placeholder="Enter Email Address..." value="<?= set_value('email'); ?>">
                                             <?= form_error('email', '<small class="text-danger pl-3">', '</small>'); ?> </div>
                                         <div class="form-group"> <input type="password" class="form-control form-control-user" id="password" placeholder="Password" name="password"> </div>
-                                        <button type="submit" class="btn btn-primary btn-user btn-block"> Login </button>
+                                        <button type="submit" class="btn btn-success btn-user btn-block"> Login </button>
                                     </form>
                                     <hr>
-                                    <div class="text-center"> <a class="small" href="forgot-password.html">Forgot Password?</a> </div>
-                                    <div class="text-center"> <a class="small" href="http://localhost/latihancodeigniter3/penjualan/auth/registration/">Create an Account!</a> </div>
+                                    <div class="text-center"> <a class="small" href="forgot-password.html"><font color="red">Forgot Password?</font></a> </div>
+                                    <div class="text-center"> <a class="small" href="http://localhost/latihancodeigniter3/penjualan/auth/registration/"><font color="red">Create an Account!</font></a> </div>
                                 </div>
                             </div>
                         </div>

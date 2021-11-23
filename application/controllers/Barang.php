@@ -9,6 +9,7 @@ class Barang extends CI_Controller{
  public function index()
  {
  $data['judul']='Halaman Barang';
+ $data['user'] = $this->Barang_model->get_where('user',['email' => $this->session->userdata('email')])->row_array();
 // library Pagination 
 $this->load->library('pagination'); 
  

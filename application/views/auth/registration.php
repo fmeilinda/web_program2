@@ -21,7 +21,7 @@
                         </form>
                         <hr>
                         <div class="text-center"> <a class="small" href="forgot-password.html">Forgot Password?</a> </div>
-                        <div class="text-center"> <a class="small" href="localhost/latihancodeigniter3/penjualan/auth/registration/" ?>Already have an account? Login!</a> </div>
+                        <div class="text-center"> <a class="small" href="<?= base_url('auth'); ?>">Already have an account? Login!</a> </div>
                     </div>
                 </div>
             </div>
